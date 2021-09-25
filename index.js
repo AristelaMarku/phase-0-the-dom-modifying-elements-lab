@@ -1,12 +1,8 @@
 // Write your code here!
-const main = document.querySelector("main");
+
+const main=document.getElementById('main')
 main.remove();
 
-const body=document.getElementsByTagName('body')[0]
 const newHeader=document.createElement('h1')
-body.appendChild(newHeader)
-
 newHeader.id='victory'
-
-
-newHeader.innerHTML="YOUR-NAME is the champion "
+newHeader.textContent= "YOUR-NAME is the champion"
